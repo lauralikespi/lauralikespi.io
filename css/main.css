@@ -1,4 +1,5 @@
 body {
+	font-family: 'Roboto', sans-serif;
 }
 .container {
 	border: 5px solid black;
@@ -15,6 +16,7 @@ body {
 	font-size: 32px;
 	position: absolute;
 	top: 50px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 .headingLogo {
@@ -23,6 +25,7 @@ body {
 	position: absolute;
 	top: 50px;
 	float: right;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 /* navigation bar */
 .navigationBar ul {
@@ -76,4 +79,7 @@ instead of below
    	width: 100%;
    	color: white;
    	padding-left: 10px;
+}
+.fadingPic h2 {
+	text-align: center;
 }
