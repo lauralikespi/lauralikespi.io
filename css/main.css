@@ -4,7 +4,6 @@ body {
 .container {
 	border: 5px solid black;
 	border-radius: 1px;
-	height: 100%;
 }
 
 .heading {
@@ -83,4 +82,34 @@ instead of below
 }
 .fadingPic h2 {
 	text-align: center;
+}
+.signCode {
+	text-align: center;
+}
+#prettySign {
+	font-family: 'Indie Flower', cursive;
+	font-size: 32px;
+}
+.codingTitle {
+	background-color: #808080;
+	padding: 5px;
+	margin-bottom: 0px;
+}
+.htmlCode {
+	background-color: #191919;
+	padding: 5px;
+	color: white;
+}
+.htmlTag {
+	color: #d21186;
+	font-weight: bold;
+}
+pre {
+    tab-size: 0;
+}
+.jsTag {
+	color: #00E5EE;
+	font-style: italic;
+	font-weight: bold;
+}
 }
