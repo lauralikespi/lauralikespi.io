@@ -6,7 +6,7 @@ body {
 .container {
 	border: 5px solid black;
 	border-radius: 1px;
-	min-height: 100%;
+	min-height: 150%;
 }
 
 .heading {
@@ -20,7 +20,9 @@ body {
 	top: 50px;
 	font-family: 'Gloria Hallelujah', cursive;
 }
-
+.headingText a {
+	color: black;
+}
 .headingLogo {
 	color: black;
 	font-size: 54px;
@@ -60,7 +62,9 @@ instead of below
 	background-color: grey;
 	color: black;
 }
-
+.blogName {
+	font-family: 'Gloria Hallelujah', cursive;
+}
 .fadingPic {
 	height: 100px;
 	margin: 1px;
@@ -69,19 +73,16 @@ instead of below
 
 .fadingPic img {
 	width: 100%;
-	height: auto;
+	height: 150px;
 	border: 5px solid black;
 	border-radius: 1px;
 	position: relative;
 }
-.fadingPic p {
-	position: absolute;
-	top: 20px; 
-   	left: 0; 
+.fadingText {
    	width: 80%;
    	color: black;
    	text-align: center;
-   	font-size: 20px;
+   	font-size: 14px;
 }
 .fadingPic h2 {
 	text-align: center;
@@ -114,5 +115,4 @@ pre {
 	color: #00E5EE;
 	font-style: italic;
 	font-weight: bold;
-}
 }
