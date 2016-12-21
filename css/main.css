@@ -6,7 +6,7 @@ body {
 .container {
 	border: 5px solid black;
 	border-radius: 1px;
-	min-height: 150%;
+	min-height: 105%;
 }
 
 .heading {
@@ -115,4 +115,7 @@ pre {
 	color: #00E5EE;
 	font-style: italic;
 	font-weight: bold;
+}
+.importantText {
+	font-size: 18px;
 }
