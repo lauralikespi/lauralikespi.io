@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>Demo Payment</title>
+        <style>
+        
+            body {
+            background-color: #72b4b4
+            }
+            h1 {
+            text-align: center;
+            color: #144056;
+            font-family: 'Nunito Sans', sans-serif;
+            }
+            h2 {
+            text-align: center;
+            color: #144056;
+            font-family: 'Nunito Sans', sans-serif;
+            }
+            h3 {
+            text-align: center;
+            color: #144056;
+            font-family: 'Nunito Sans', sans-serif;
+            }
+            p {
+            text-align: center;
+            color: #144056;
+            font-family: 'Poppins', sans-serif;
+            }
+            form {
+            text-align: center;
+            color: #144056;
+            font-family: 'Poppins', sans-serif;
+            }
+            button {
+            text-align: center;
+            background-color: #144056;
+            border-color: #144056;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            }
+            #center {
+            text-align: center;
+            }
+            img {
+                
+            height: 200px;
+            width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <br>
+        <br>
+        <div id=center>
+            <!-- <img src="https://static1.squarespace.com/static/5a86c8eaf43b55c5a1945f70/t/5a86ca1871c10bc44dabef13/1523616856414/?format=1500w" alt="APEXX"/>  -->
+            <h1>APEXX Payment Page</h1>
+            <h2>Card Details</h2>
+            <br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="card">
+                        <div class="card__header">
+                            <div class="amount">
+                                <p id="amount"></p>
+                            </div>
+                            <div class="details">
+                                <p id="organisation_name"></p>
+                                <p id="merchant_reference"></p>
+                            </div>
+                        </div>
+                        <div class="card__content">
+                            <form id="payment_fieldset" method="POST"></form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
