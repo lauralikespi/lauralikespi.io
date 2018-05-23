@@ -1,121 +1,49 @@
+@font-face {
+  font-family: 'Kollektif';
+  src: url('font/Kollektif.ttf');
+}
 body {
-	font-family: 'Roboto', sans-serif;
-	min-height: 100%;
+	font-family: Kollektif,'Raleway', sans-serif;
+	background-color: #D9D9D9;
+}
+.row {
 	width: 100%;
+	display: flex;
 }
-.container {
-	border: 5px solid black;
-	border-radius: 1px;
-	min-height: 105%;
+.col-half {
+	width:50%;
+	display: inline-block;
+	flex: 1;
+	padding: 5px;
 }
-
-.heading {
-	height: 25%;
+.col-third {
+	width:30%;
+	display: inline-block;
+	flex: 1;
+	padding: 5px;
 }
-
-.headingText {
-	color: black;
-	font-size: 32px;
-	position: absolute;
-	top: 50px;
-	font-family: 'Gloria Hallelujah', cursive;
+.col-quarter {
+	width:22%;
+	display: inline-block;
+	flex: 1;
+	padding: 5px;
+	text-align: center;
 }
-.headingText a {
-	color: black;
+h1 {
+	color: #646464;
 }
-.headingLogo {
-	color: black;
-	font-size: 54px;
-	position: absolute;
-	top: 50px;
+#titleSection {
+	height:50%;
+}
+.icons {
 	float: right;
-	font-family: 'Gloria Hallelujah', cursive;
 }
-/* navigation bar */
-.navigationBar ul {
-	list-style-type: none; /* this removes the bullet points from the unordered list */
-	background-color: black;
-	padding: 15px;
-	margin: 0px;
-	color: white;
-	border-radius: 1px;
+.contact {
+	width: 5%;
+	height: auto;
+	vertical-align: middle
 }
-/* for a vertical navigation bar include:
-.navigationBar li a {
-	display: block;
-}
-instead of below
-*/
-.navigationBar li {
-	display: inline; /* used to create a horizontal list */
-}
-
-.navigationBar li a {
-	background-color: black;
-	padding: 15px;
-	margin: 2px;
-	color: white;
-	border-radius: 1px;
-}
-
-.navigationBar li a:hover {
-	background-color: grey;
-	color: black;
-}
-.blogName {
-	font-family: 'Gloria Hallelujah', cursive;
-}
-.fadingPic {
-	height: 100px;
-	margin: 1px;
-	padding-left: 1px;
-}
-
-.fadingPic img {
-	width: 100%;
-	height: 150px;
-	border: 5px solid black;
-	border-radius: 1px;
-	position: relative;
-}
-.fadingText {
-   	width: 80%;
-   	color: black;
-   	text-align: center;
-   	font-size: 14px;
-}
-.fadingPic h2 {
-	text-align: center;
-}
-.signCode {
-	text-align: center;
-}
-#prettySign {
-	font-family: 'Indie Flower', cursive;
-	font-size: 32px;
-}
-.codingTitle {
-	background-color: #808080;
-	padding: 5px;
-	margin-bottom: 0px;
-}
-.htmlCode {
-	background-color: #191919;
-	padding: 5px;
-	color: white;
-}
-.htmlTag {
-	color: #d21186;
-	font-weight: bold;
-}
-pre {
-    tab-size: 0;
-}
-.jsTag {
-	color: #00E5EE;
-	font-style: italic;
-	font-weight: bold;
-}
-.importantText {
-	font-size: 18px;
+.blurbWords {
+	text-align: right;
+	color: #4F6EFB;
 }
