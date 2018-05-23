@@ -38,10 +38,13 @@ h1 {
 .icons {
 	float: right;
 }
-.contact {
+.contactImg {
 	width: 5%;
 	height: auto;
-	vertical-align: middle
+	vertical-align: middle;
+}
+.contact {
+	color: #646464;
 }
 .blurbWords {
 	text-align: right;
