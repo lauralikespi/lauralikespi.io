@@ -4,11 +4,24 @@
 }
 body {
 	font-family: Kollektif,'Raleway', sans-serif;
-	background-color: #D9D9D9;
+	height: 100%;
+}
+#bannerImage {
+	height: 60%;
+	background-image: url("img/pencils.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin: center;
 }
 .row {
 	width: 100%;
 	display: flex;
+}
+.col-full {
+	width:100%;
+	display: inline-block;
+	flex: 1;
+	padding: 5px;
 }
 .col-half {
 	width:50%;
@@ -29,35 +42,44 @@ body {
 	padding: 5px;
 	text-align: center;
 }
-h1 {
-	color: #646464;
+.navBar {
+	text-align: right;
 }
 ul {
- 	list-style-type: none;
- }
-#titleSection {
-	height:50%;
+	vertical-align: bottom;
 }
-.icons {
-	float: right;
+.navBar li {
+	display: inline;
+	padding: 2px;
+	font-size: 18px;
+	vertical-align: bottom;
 }
-.contactImg {
-	width: 5%;
-	height: auto;
-	vertical-align: middle;
+.navBar a {
+    color: black;
+    text-decoration: none;
 }
-footer, .contact {
-	color: #646464;
+.navBar a:hover {
+    text-decoration: underline;
 }
-.blurbWords {
-	text-align: right;
-	color: #4F6EFB;
+.contact {
+	height: 4%;
 }
-.enigma {
-	width: 200px;
-	height: auto;
+.contact img {
+	height: 100%;
+	width: 50px;
 }
-.poster {
-	width: 200px;
-	height: auto;
+#email {
+	
+}
+.imgBubbles {
+	padding-top: 10px;
+}
+.imgBubbles img {
+	height: 10%;
+	width: auto;
+}
+footer {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	color: grey;
 }
