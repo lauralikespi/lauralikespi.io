@@ -64,19 +64,12 @@ ul {
 .contact {
 	height: 4%;
 }
-.contact img {
-	height: 100%;
-	width: 50px;
-}
-#email {
-	
-}
 .imgBubbles {
 	padding-top: 10px;
 }
 .imgBubbles img {
 	height: 10%;
-	width: auto;
+	width: auto%;
 }
 footer {
 	padding-bottom: 0px;
