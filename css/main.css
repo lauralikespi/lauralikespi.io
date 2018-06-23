@@ -4,7 +4,11 @@
 }
 body {
 	font-family: Kollektif,'Raleway', sans-serif;
-	height: 100%;
+	/*height: 100%;*/
+	width: 100vw;
+}
+a {
+    text-decoration: none;
 }
 #bannerImage {
 	height: 60%;
@@ -69,10 +73,35 @@ ul {
 }
 .imgBubbles img {
 	height: 10%;
-	width: auto%;
+	width: auto;
 }
 footer {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	color: grey;
+}
+@media only screen and (max-width: 1024px) {
+    #bannerImage {
+		height: 25%;
+	}
+    #aboutBig {
+    	display: none;
+    }
+    #aboutSmall h3 {
+		display: inline;
+		padding: 10px;
+		font-weight: bold;
+	}
+	#aboutSmall h3:hover {
+	    text-decoration: underline;
+	}
+	.imgBubbles img {
+		height: 5%;
+		width: auto;
+	}
+}
+@media only screen and (min-width: 1025px) {
+	#aboutSmall {
+	    display: none;
+	}
 }
