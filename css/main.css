@@ -118,7 +118,7 @@ h3 {
 	font-size: 0.85em;
 }*/
 @media only screen and (max-width: 1024px) {
-    #bannerImage {
+    #bannerImage, #bannerImageAbout, #bannerImageContact {
 		height: 25%;
 	}
     #aboutBig {
