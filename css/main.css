@@ -149,15 +149,15 @@ h3 {
 		padding: 10px;
 		font-weight: bold;
 	}
-	#aboutSmall {
-		text-align: center;
-	}
 	#aboutSmall h3:hover {
 	    text-decoration: underline;
 	}
 	.imgBubbles img {
 		height: 5%;
 		width: auto;
+	}
+	#mc_embed_signup {
+		font:10px Helvetica,Arial,sans-serif;
 	}
 }
 @media only screen and (min-width: 1025px) {
@@ -167,15 +167,36 @@ h3 {
 	#aboutBig h3 {
     	font-weight: bold;
     }
+    #mc_embed_signup {
+    	width: 60%;
+		font:14px Helvetica,Arial,sans-serif;
+	}
 }
 .link {
 	text-decoration: underline;
 	font-size: 1.1em;
 }
 #mc_embed_signup {
-	width: 60%;
+	/*width: 60%;*/
 	float: center;
 	background:#fff; 
 	/*clear:left; */
-	font:14px Helvetica,Arial,sans-serif;
 }
+
+#mc-embedded-subscribe-form input[type=checkbox]{
+	display: inline; 
+	width: auto;
+	margin-right: 10px;
+}
+#mergeRow-gdpr {
+	margin-top: 20px;
+}
+#mergeRow-gdpr fieldset label {
+	font-weight: normal;
+}
+#mc-embedded-subscribe-form .mc_fieldset{
+	border:none;
+	min-height: 0px;
+	padding-bottom:0px;
+}
+
