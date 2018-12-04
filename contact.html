@@ -18,40 +18,47 @@
 		</script>	
 	</head>
 	<body>
-
-
 		<div class="row" id="titleSection">
 			<div class="col-half">
-				<h1> <a href="/">< tbh /></a> </h1>
-				<h2> <a href="/"> taught by humans</a> </h2>
+				<a class="logo1" href="/">< tbh /></a>
+				<br> <a class="logo2" href="/"> taught by humans</a>
 			</div>
-			<div class="col-half rightHalf">
-				<br>
-				<ul class="navBar contact">
-					<!-- <li> <a href="contact.html" ><i class="far fa-envelope"></i></a>  </li> -->
-					<li> <a href="https://twitter.com/taughtbyhumans" target="_blank"> <i class="fab fa-twitter"></i></a>  </li>
-					<li> <a href="https://www.instagram.com/taughtbyhumans/"target="_blank"> <i class="fab fa-instagram"></i></a>  </li>
-					<!-- ADD INSTAGRAM -->
-				</ul>
-				<!-- <p class="navBar"> email: humans@taughtbyhumans.com </p> -->
-				<ul class="navBar">
-					<li> <a href="about">about</a> </li>
-					<!-- <li> <a href="courses">courses</a> </li> -->
-					<li> <a href="https://medium.com/@taughtbyhumans" target="_blank">blog</a> </li>
-					<li> <a href="contact">contact</a> </li>
-<!-- 					<li> <a href="documents">documents</a> </li> -->
-				</ul>
-			</div>
+	        <div class="col-half">
+				<nav class="navbar">
+			        <span class="navbar-toggle" id="js-navbar-toggle">
+			            <i class="fas fa-bars"></i>
+			        </span>
+
+
+			        <ul class="main-nav" id="js-menu">
+			            <li>
+			                <a href="about" class="nav-links">about</a>
+			            </li>
+		<!-- 	            <li>
+			                <a href="courses" class="nav-links">courses</a>
+			            </li> -->
+			            <li>
+			                <a href="https://medium.com/@taughtbyhumans" target="_blank" class="nav-links">blog</a>
+			            </li>
+			            <li>
+			                <a href="contact" class="nav-links">contact</a>
+			            </li>
+		<!-- 	            <li>
+			                <a href="#" class="nav-links">Blog</a>
+			            </li> -->
+			        </ul>
+			    
+				</nav>
+			</div> 
+
 		</div>	
 
 
 		<div class="row" id="aboutBig">
-			<div class="col-full">	
-				<h2> Contact </h2>
-				<div class="row">
-					<div class="col-half" id="bannerImageContact">
-					</div>	
-				<div id="mc_embed_signup" class="col-half">
+			<div class="col-third" id="bannerImageContact">
+			</div>	
+			<div class="col-2third">
+				<div id="mc_embed_signup">
 					<form action="https://taughtbyhumans.us18.list-manage.com/subscribe/post?u=f714418dd41380922dcf487ff&amp;id=b71794a067" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					    <div id="mc_embed_signup_scroll">
 						<h2>Subscribe to our mailing list</h2>
@@ -99,16 +106,13 @@
 					    </div>
 					</form>
 				</div>
-				</div>
-				<!--End mc_embed_signup-->
-				</div>
 			</div>
 		</div>
 
 		<div id="aboutSmall">
 			<div class="row"  id="bannerImageContact">
 			</div>
-			<h2> Contact </h2>
+			<!-- <h2> Contact </h2> -->
 			<div class="row">
 <!-- 				<div class="col-quarter">
 				</div> -->
@@ -164,12 +168,28 @@
 
 					<!--End mc_embed_signup-->
 		</div>
+		<div class="row">
+			<div class="col-quarter">
+			</div>
+			<div class="col-half">
+				<ul class="social">
+				<!-- <li> <a href="contact.html" ><i class="far fa-envelope"></i></a>  </li> -->
+				<li> <a href="https://twitter.com/taughtbyhumans" target="_blank"> <i class="fab fa-twitter"></i></a>  </li>
+				<li> <a href="https://www.instagram.com/taughtbyhumans/"target="_blank"> <i class="fab fa-instagram"></i></a>  </li>
+				<!-- ADD INSTAGRAM -->
+			</ul>
+		</div>
+		<div class="col-quarter">
+			</div>
+		</div>
 		<footer>
 			<p>made by lauralikespi 2018 - font used Kollektif from <a href="http://www.bravenewfonts.com/" target="_blank">Brave New Fonts</a> Photo by Jerry Kiesewetter on Unsplash </p>
 				<!-- books Photo by Sharon McCutcheon on Unsplash </p> -->
 		</footer>
 		<script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-		<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[2]='MESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+		<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[2]='MESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+		</script>
+		<script src="js/main.js"></script>
 
 
 </html>
