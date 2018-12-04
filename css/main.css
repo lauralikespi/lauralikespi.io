@@ -19,13 +19,13 @@ a:hover, .content__gdprLegal a:hover {
 }
 #bannerImage {
 	height: 60%;
-	background-image: url("img/pencils.png");
+	background-image: url("img/mainPencils.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-origin: bottom;
 }
-#bannerImageAbout {
-	background-image: url("img/colouringPencilsShort.png");
+.bannerImageAbout {
+	background-image: url("img/colouringPencils.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-origin: center;
@@ -120,7 +120,11 @@ h3 {
 	font-size: 0.85em;
 }*/
 @media only screen and (max-width: 1024px) {
-    #bannerImage, .bannerImageContact {
+    #aboutSmall {
+    	width: 100%;
+    	height: 140%;
+    }
+    #bannerImage, .bannerImageAbout, .bannerImageContact {
 		width: 100%;
 		height: 25%;
 	}
