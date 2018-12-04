@@ -156,8 +156,8 @@ h3 {
 		height: 5%;
 		width: auto;
 	}
-	#mc_embed_signup {
-		font:10px Helvetica,Arial,sans-serif;
+	#mc_embed_signup, #aboutSmall input, #aboutSmall label{
+		font-size: 1.5em;
 	}
 }
 @media only screen and (min-width: 1025px) {
