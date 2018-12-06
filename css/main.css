@@ -10,12 +10,17 @@ body {
 }
 a , .content__gdprLegal a {
     text-decoration: none;
+    color: black;
 }
 a:visited, .content__gdprLegal a:visited  {
 	color: black;
 }
 a:hover, .content__gdprLegal a:hover {
 	text-decoration: underline;
+}
+.bigger {
+	font-size: 1.1em;
+	font-weight: bold;
 }
 #bannerImage {
 	height: 60%;
@@ -94,10 +99,18 @@ a:hover, .content__gdprLegal a:hover {
 }
 .imgBubbles {
 	padding-top: 10px;
+/*	display: table-cell;
+    vertical-align: middle;*/
 }
 .imgBubbles img {
-	height: 10%;
+	height: 20%;
 	width: auto;
+	/*align-items: center;*/
+	opacity: 0.5;
+  	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.imgBubbles h3 {
+	color: grey;
 }
 footer {
 	padding-bottom: 0px;
@@ -124,6 +137,7 @@ h3 {
     	width: 100%;
     	height: 140%;
     }
+    
     #bannerImage, .bannerImageAbout, .bannerImageContact {
 		width: 100%;
 		height: 25%;
@@ -141,8 +155,7 @@ h3 {
 	    text-decoration: underline;
 	}
 	.imgBubbles img {
-		height: 5%;
-		width: auto;
+		height: 10vh;
 	}
 	#mc_embed_signup, #aboutSmall input, #aboutSmall label{
 		font-size: 1.5em;
@@ -161,7 +174,6 @@ h3 {
 		text-align: center;
 	}
 	.imgBubbles img {
-		height: 20%;
 		float: center;
 	}
 }
