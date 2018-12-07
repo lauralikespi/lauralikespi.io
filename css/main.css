@@ -88,7 +88,7 @@ a:hover, .content__gdprLegal a:hover {
 	display: inline-block;
 	flex: 1;
 	padding: 5px;
-	/*text-align: center;*/
+	text-align: center;
 }
 .col-small {
 	width:16%;
@@ -155,7 +155,7 @@ h3 {
     }
     #aboutSmall h3 {
 		display: inline;
-		padding: 10px;
+		padding-bottom: 10px;
 		/*font-weight: bold;*/
 		font-size: 1.2em;
 	}
