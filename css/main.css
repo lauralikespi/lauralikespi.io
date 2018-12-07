@@ -88,7 +88,7 @@ a:hover, .content__gdprLegal a:hover {
 	display: inline-block;
 	flex: 1;
 	padding: 5px;
-	text-align: center;
+	/*text-align: center;*/
 }
 .col-small {
 	width:16%;
@@ -112,6 +112,11 @@ a:hover, .content__gdprLegal a:hover {
 .imgBubbles h3 {
 	color: grey;
 }
+.productImg {
+	width: 90%;
+	height: auto;
+	align-items: center;
+}
 footer {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
@@ -119,6 +124,9 @@ footer {
 }
 footer a:visited {
 	color: grey;
+}
+.productTitle {
+	text-align: center;
 }
 .logo1 {
 	font-size: 1.9em;
@@ -149,7 +157,7 @@ h3 {
 		display: inline;
 		padding: 10px;
 		/*font-weight: bold;*/
-		font-size: 1.9em;
+		font-size: 1.2em;
 	}
 	#aboutSmall h3:hover {
 	    text-decoration: underline;
@@ -191,6 +199,7 @@ h3 {
 	#mc_embed_signup .mc-field-group.input-group ul li {
 		display: inline;
 	}
+
 }
 .link {
 	text-decoration: underline;
@@ -267,13 +276,12 @@ h3 {
 	text-decoration: underline;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 1025px) {
 	.navbar {
 	    display: flex;
 	    justify-content: space-between;
 	    padding-bottom: 0;
 	    height: 70px;
-	    /*align-items: center;*/
 	    float: right;
 	}
 
@@ -322,4 +330,6 @@ h3 {
 .social a:hover {
     text-decoration: underline;
 }
-
+#page-divide {
+	border-right: 2px dotted grey;
+}
