@@ -60,7 +60,7 @@ a:hover, .content__gdprLegal a:hover {
 	padding: 5px;
 }
 .col-threeQuarters {
-	width:72%;
+	width:75%;
 	display: inline-block;
 	flex: 1;
 	padding: 5px;
@@ -84,7 +84,7 @@ a:hover, .content__gdprLegal a:hover {
 	padding: 5px;
 }
 .col-quarter {
-	width:22%;
+	width:25%;
 	display: inline-block;
 	flex: 1;
 	padding: 5px;
@@ -238,6 +238,9 @@ h3 {
 .main-nav {
 	list-style-type: none;
 	display: none;
+}
+.days {
+	text-align: center;
 }
 
 .nav-links,
