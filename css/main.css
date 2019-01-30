@@ -2,6 +2,9 @@
   font-family: 'Kollektif';
   src: url('font/Kollektif.ttf');
 }
+* {
+	box-sizing: border-box;
+}
 html, body {
 	width:100%;
 	height:100%;
@@ -63,22 +66,23 @@ a:hover, .content__gdprLegal a:hover {
 	flex: 1;
 	padding: 5px;
 }
-.col-threeQuarters {
+.col-3Quarters {
 	width:75%;
 	display: inline-block;
-	flex: 1;
+	/* flex: 1; */
 	padding: 5px;
 }
 .col-half {
 	width:50%;
 	display: inline-block;
-	flex: 1;
+	/* flex: 1; */
 	padding: 5px;
+	box-sizing: border-box;
 }
 .col-third {
 	width:33%;
 	display: inline-block;
-	flex: 1;
+	/* flex: 1; */
 	padding: 5px;
 }
 .col-2third {
@@ -90,19 +94,21 @@ a:hover, .content__gdprLegal a:hover {
 .col-quarter {
 	width:25%;
 	display: inline-block;
-	flex: 1;
+	/* flex: 1; */
 	padding: 5px;
-	text-align: center;
+	box-sizing: border-box;
+	/* text-align: center; */
 }
 .col-small {
 	width:16%;
 	display: inline-block;
-	flex: 1;
+	/* flex: 1; */
 	padding: 5px;
 	text-align: center;
 }
 .imgBubbles {
 	padding-top: 10px;
+	text-align: center;
 /*	display: table-cell;
     vertical-align: middle;*/
 }
@@ -340,27 +346,21 @@ ul {
 .social a:hover {
     text-decoration: underline;
 }
-#page-divide {
+.page-divide {
 	border-right: 2px dotted grey;
 }
 .section-divide {
 	border-bottom: 2px dotted grey;
 }
-
-
-
-
-* {
-	box-sizing: border-box;
-}
-
 .mySlides {
 	display: none;
 }
 img {
 	vertical-align: middle;
 }
-
+.events p {
+	padding-left: 10px;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -452,3 +452,13 @@ img {
   .prev:hover, .next:hover {
 	background-color: rgba(0,0,0,0.8);
   }
+
+#corp-work-exp-feb-19 {
+	display: none;
+}
+.left-align {
+	text-align: right;
+}
+.right-align {
+	text-align: left;
+}
