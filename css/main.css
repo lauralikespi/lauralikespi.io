@@ -155,7 +155,9 @@ h3 {
     	width: 99%;
     	height: auto;
     }
-    
+    .col-half {
+		width: 99%;
+	}
     #bannerImage, .bannerImageAbout, .bannerImageContact {
 		width: 100%;
 		height: 25%;
@@ -224,7 +226,6 @@ h3 {
 
 #mc-embedded-subscribe-form input[type=checkbox]{
 	display: inline; 
-	width: auto;
 	margin-right: 10px;
 }
 #mergeRow-gdpr {
@@ -456,9 +457,15 @@ img {
 #corp-work-exp-feb-19 {
 	display: none;
 }
+#paddle-feb-19 {
+	display: none;
+}
 .left-align {
 	text-align: right;
 }
 .right-align {
 	text-align: left;
+}
+ul.mobileEvents  {
+	list-style: none;
 }
