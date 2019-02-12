@@ -8,7 +8,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="../css/main.css"/>
 		<link rel="icon" href="../css/img/favion.io" type="image/gif" sizes="16x16">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/../css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120580064-1"></script>
 		<script>
@@ -21,171 +21,172 @@
 	</head>
 	<body>
 
+        <div class="wrapper">
 
-		<div class="row">
-			<div class="col-full centredTitle">
-				<a class="logo1" href="/">&lt; tbh /&gt;</a>
-				<br> <a class="logo2" href="/"> taught by humans</a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-full centredTitle">
-				<nav class="navbar">
-			        <span class="navbar-toggle" id="js-navbar-toggle">
-			            <i class="fas fa-bars"></i>
-			        </span>
-
-
-			        <ul class="main-nav" id="js-menu">
-<!-- 			            <li>
-			                <a href="about" class="nav-links">about</a>
-			            </li> -->
-<!-- 			            <li>
-			                <a href="products" class="nav-links">products</a>
-			            </li>		 -->	            
-			            <li>
-			                <a href="events" class="nav-links">events</a>
-			            </li>
-			            <li>
-			                <a href="https://medium.com/@taughtbyhumans" target="_blank" class="nav-links">blog</a>
-			            </li>
-			            <li>
-			                <a href="contact" class="nav-links">contact</a>
-			            </li>
-			            <li>
-			                <a href="resources" class="nav-links">resources</a>
-			            </li>
-			        </ul>
-			    
-				</nav>
-			</div> 
-		</div>
-        
-		<div id="aboutBig">
-			<div class="row">
-				<div class="col-full">
-                    <h2> Make the News </h2>
-                    <h3> Using developer tools in Chrome (or another browser) </h3>
+            <div class="row">
+                <div class="col-full centredTitle">
+                    <a class="logo1" href="/">&lt; tbh /&gt;</a>
+                    <br> <a class="logo2" href="/"> taught by humans</a>
                 </div>
             </div>
-
-			<div class="row">
-                <div class="col-full">
-                    <ol>
-                        <li> Go to <a href="https://www.bbc.co.uk/news" target="__blank"><em>BBC news</em> </a> (or any website, but try BBC news first) in Google Chrome </li>
-                        <br/>
-                        <li> 
-                            <div class="row">
-                                <div class="col-half">
-                                    Right click (on a white area) > Inspect
-                                </div>
-                                <div class="col-half">
-                                    <!-- <button onclick="rightClickInspectButton()">Hint </button> -->
-                                    <img id="rightClickInspect" class="makeTheNewsImg" src="../css/img/makeTheNews/1rightClickInspect.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
-                                </div>
-                            </div> 
-                        </li>
-                        <br/>
-                        <li class="sideNote"> 
-                            <div class="row">
-                                <div class="col-half">
-                                    If the toolbar that pops up is at the side or the top, we find it easier to use at the bottom of the screen. Click the three dots and choose Dock side: . You can also change the size of this toolbar by hoovering over the edge until a double ended arrow shows up, then clicking and dragging the toolbar to start/stop where you want it to.
-                                </div>
-                                <div class="col-half">
-                                    <!-- <button onclick="dockSideButton()">Hint </button> -->
-                                    <img id="dockSide" class="makeTheNewsImg" src="../css/img/makeTheNews/2dockSide.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
-                                </div>
-                            </div> 
-                        </li>
-                        <br/>
-                        <li> 
-                            <div class="row">
-                                <div class="col-half">
-                                        Make sure Elements in selected from the top of the toolbar (you should be able to see lots of code in the main part) 
-                                </div>
-                                <div class="col-half">
-                                    <!-- <button onclick="toolbarButton()">Hint </button> -->
-                                    <img id="toolbar" class="makeTheNewsImg" src="../css/img/makeTheNews/3toolbar.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
-                                </div>
-                            </div> 
-                        </li>
-                        <br/>
-                        <li> 
-                            <div class="row">
-                                <div class="col-half">
-                                    Click on the arrow icon (top left of the toolbar)
-                                </div>
-                                <div class="col-half">
-                                    <img class="makeTheNewsImg" src="../css/img/makeTheNews/3toolbar.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
-                                </div>
-                            </div> 
-                        </li> 
-                        <br/>                       
-                        <li> 
-                            <div class="row">
-                                <div class="col-half">
-                                    Now when you move the your mouse over the webpage, sections should go blue. Click on a heading
-                                </div>
-                                <div class="col-half">
-                                    <img class="makeTheNewsImg" src="../css/img/makeTheNews/4blueHover.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
-                                </div>
-                            </div> 
-                        </li>  
-                        <br/>
-                        <li> 
-                            <div class="row">
-                                <div class="col-half">
-                                    Now in the toolbar, some of the code should be highlighted in blue! Look for the line that <strong>NEXT</strong> begins with <code> &lt;h3 ...</code>
-                                </div>
-                                <div class="col-half">
-                                    <img class="makeTheNewsImg" src="../css/img/makeTheNews/5blueHTML.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
-                                </div>
-                            </div> 
-                        </li>    
-                        <br/>
-                        <li> 
-                            <div class="row">
-                                <div class="col-half">
-                                    Notice the black text in this line is the same as the heading. Double-click on this black text
-                                </div>
-                                <div class="col-half">
-                                    <img class="makeTheNewsImg" src="../css/img/makeTheNews/6doubleClick.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
-                                </div>
-                            </div> 
-                        </li>     
-                        <br/>
-                        <li> 
-                            <div class="row">
-                                <div class="col-half">
-                                    Now just this black text should be highlighted in blue. Press delete or backspace to get rid of this text. Write whatver you want to (if you are stuck, we suggest <strong> Taught by Humans is awesome!</strong>, hehe). When you are finished press the enter key
-                                </div>
-                                <div class="col-half">
-                                    <img class="makeTheNewsImg" src="../css/img/makeTheNews/7textChanged.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
-                                </div>
-                            </div> 
-                        </li>     
-                        <br/> 
-                        <li> 
-                            <div class="row">
-                                <div class="col-half">
-                                    Looking at the panel on the right-hand side of the toolbar, you might notice this looks different from the code in the main panel and that the actual panel moves separately. Scroll this panel down until you see a line like <code> .nw-o-split-text</code>. In between the curly brackets { } there will be a colour (probably black, beginning with a #) double click on this. Repeat what you did for the heading (delete, type, enter) with a colour (red, blue, green, pink, purple all work)
-                                </div>
-                                <div class="col-half">
-                                    <img class="makeTheNewsImg" src="../css/img/makeTheNews/8css.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
-                                </div>
-                            </div> 
-                        </li>  
+            <div class="row">
+                <div class="col-full centredTitle">
+                    <nav class="navbar">
+                        <span class="navbar-toggle" id="js-navbar-toggle">
+                            <i class="fas fa-bars"></i>
+                        </span>
 
 
-                    </ol>
-
-                </div>
+                        <ul class="main-nav" id="js-menu">
+    <!-- 			            <li>
+                                <a href="about" class="nav-links">about</a>
+                            </li> -->
+    <!-- 			            <li>
+                                <a href="products" class="nav-links">products</a>
+                            </li>		 -->	            
+                            <li>
+                                <a href="events" class="nav-links">events</a>
+                            </li>
+                            <li>
+                                <a href="https://medium.com/@taughtbyhumans" target="_blank" class="nav-links">blog</a>
+                            </li>
+                            <li>
+                                <a href="contact" class="nav-links">contact</a>
+                            </li>
+                            <li>
+                                <a href="resources" class="nav-links">resources</a>
+                            </li>
+                        </ul>
+                    
+                    </nav>
+                </div> 
             </div>
+            
+            <div id="aboutBig">
+                <div class="row">
+                    <div class="col-full">
+                        <h2> Make the News </h2>
+                        <h3> Using developer tools in Chrome (or another browser) </h3>
+                    </div>
+                </div>
 
-		</div>
-		
-		
+                <div class="row">
+                    <div class="col-full">
+                        <ol>
+                            <li> Go to <a href="https://www.bbc.co.uk/news" target="__blank"><em>BBC news</em> </a> (or any website, but try BBC news first) in Google Chrome </li>
+                            <br/>
+                            <li> 
+                                <div class="row">
+                                    <div class="col-half">
+                                        Right click (on a white area) > Inspect
+                                    </div>
+                                    <div class="col-half">
+                                        <!-- <button onclick="rightClickInspectButton()">Hint </button> -->
+                                        <img id="rightClickInspect" class="makeTheNewsImg" src="../css/img/makeTheNews/1rightClickInspect.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
+                                    </div>
+                                </div> 
+                            </li>
+                            <br/>
+                            <li class="sideNote"> 
+                                <div class="row">
+                                    <div class="col-half">
+                                        If the toolbar that pops up is at the side or the top, we find it easier to use at the bottom of the screen. Click the three dots and choose Dock side: . You can also change the size of this toolbar by hoovering over the edge until a double ended arrow shows up, then clicking and dragging the toolbar to start/stop where you want it to.
+                                    </div>
+                                    <div class="col-half">
+                                        <!-- <button onclick="dockSideButton()">Hint </button> -->
+                                        <img id="dockSide" class="makeTheNewsImg" src="../css/img/makeTheNews/2dockSide.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
+                                    </div>
+                                </div> 
+                            </li>
+                            <br/>
+                            <li> 
+                                <div class="row">
+                                    <div class="col-half">
+                                            Make sure Elements in selected from the top of the toolbar (you should be able to see lots of code in the main part) 
+                                    </div>
+                                    <div class="col-half">
+                                        <!-- <button onclick="toolbarButton()">Hint </button> -->
+                                        <img id="toolbar" class="makeTheNewsImg" src="../css/img/makeTheNews/3toolbar.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
+                                    </div>
+                                </div> 
+                            </li>
+                            <br/>
+                            <li> 
+                                <div class="row">
+                                    <div class="col-half">
+                                        Click on the arrow icon (top left of the toolbar)
+                                    </div>
+                                    <div class="col-half">
+                                        <img class="makeTheNewsImg" src="../css/img/makeTheNews/3toolbar.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
+                                    </div>
+                                </div> 
+                            </li> 
+                            <br/>                       
+                            <li> 
+                                <div class="row">
+                                    <div class="col-half">
+                                        Now when you move the your mouse over the webpage, sections should go blue. Click on a heading
+                                    </div>
+                                    <div class="col-half">
+                                        <img class="makeTheNewsImg" src="../css/img/makeTheNews/4blueHover.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
+                                    </div>
+                                </div> 
+                            </li>  
+                            <br/>
+                            <li> 
+                                <div class="row">
+                                    <div class="col-half">
+                                        Now in the toolbar, some of the code should be highlighted in blue! Look for the line that <strong>NEXT</strong> begins with <code> &lt;h3 ...</code>
+                                    </div>
+                                    <div class="col-half">
+                                        <img class="makeTheNewsImg" src="../css/img/makeTheNews/5blueHTML.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
+                                    </div>
+                                </div> 
+                            </li>    
+                            <br/>
+                            <li> 
+                                <div class="row">
+                                    <div class="col-half">
+                                        Notice the black text in this line is the same as the heading. Double-click on this black text
+                                    </div>
+                                    <div class="col-half">
+                                        <img class="makeTheNewsImg" src="../css/img/makeTheNews/6doubleClick.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
+                                    </div>
+                                </div> 
+                            </li>     
+                            <br/>
+                            <li> 
+                                <div class="row">
+                                    <div class="col-half">
+                                        Now just this black text should be highlighted in blue. Press delete or backspace to get rid of this text. Write whatver you want to (if you are stuck, we suggest <strong> Taught by Humans is awesome!</strong>, hehe). When you are finished press the enter key
+                                    </div>
+                                    <div class="col-half">
+                                        <img class="makeTheNewsImg" src="../css/img/makeTheNews/7textChanged.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
+                                    </div>
+                                </div> 
+                            </li>     
+                            <br/> 
+                            <li> 
+                                <div class="row">
+                                    <div class="col-half">
+                                        Looking at the panel on the right-hand side of the toolbar, you might notice this looks different from the code in the main panel and that the actual panel moves separately. Scroll this panel down until you see a line like <code> .nw-o-split-text</code>. In between the curly brackets { } there will be a colour (probably black, beginning with a #) double click on this. Repeat what you did for the heading (delete, type, enter) with a colour (red, blue, green, pink, purple all work)
+                                    </div>
+                                    <div class="col-half">
+                                        <img class="makeTheNewsImg" src="../css/img/makeTheNews/8css.png" alt="Right click on the BBC news website. Inspect line highlighted"/>                        
+                                    </div>
+                                </div> 
+                            </li>  
 
+
+                        </ol>
+
+                    </div>
+                </div>
+
+            </div>
+            
+            
+        </div>
 		<div class="row">
 			<div class="col-quarter">
 			</div>

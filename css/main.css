@@ -12,6 +12,9 @@ html, body {
 body {
 	font-family: Kollektif,'Raleway', sans-serif;
 }
+.wrapper {
+	min-height: 80%;
+}
 a , .content__gdprLegal a {
     text-decoration: none;
     color: black;
@@ -486,4 +489,8 @@ li.noNumber {
 img.makeTheNewsImg {
 	width: 90%;
 	height: 50%;
+}
+img.pens {
+	width: 100%;
+	height: auto;
 }
