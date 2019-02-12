@@ -469,3 +469,21 @@ img {
 ul.mobileEvents  {
 	list-style: none;
 }
+#worldpayLogo {
+	width: 10%;
+	height: auto;
+}
+.techBrightLinks {
+	text-align: center;
+}
+img.techBrightLogos {
+	width: 20%;
+	height: auto;
+}
+li.noNumber {
+	list-style-type: none;
+}
+img.makeTheNewsImg {
+	width: 90%;
+	height: 50%;
+}
