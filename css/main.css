@@ -174,7 +174,7 @@ h3 {
 		display: inline;
 		padding-bottom: 10px;
 		/*font-weight: bold;*/
-		font-size: 1.2em;
+		/* font-size: 1.2em; */
 	}
 	#aboutSmall h3:hover {
 	    text-decoration: underline;
@@ -182,7 +182,7 @@ h3 {
 	.imgBubbles img {
 		height: 10vh;
 	}
-	#mc_embed_signup, #aboutSmall input, #aboutSmall label{
+	/* #mc_embed_signup, #aboutSmall input, #aboutSmall label{
 		font-size: 1.5em;
 	}
 	.content__gdpr p{
@@ -190,11 +190,11 @@ h3 {
 	}
 	.content__gdprLegal p {
 		font-size: 0.7em;
-	}
+	}*/
 	#mc_embed_signup .button {
 		padding: 0.5em 1.1em 1em 1.1em;
 		font-size: 2em;
-	}
+	} 
 	.imgBubbles {
 		text-align: center;
 	}
@@ -209,13 +209,6 @@ h3 {
 	#aboutBig h3 {
     	font-weight: bold;
     }
-    #mc_embed_signup {
-    	width: 100%;
-		font:1.5em;
-	}
-	#mc_embed_signup .mc-field-group.input-group ul li {
-		display: inline;
-	}
 
 }
 .link {
@@ -499,10 +492,6 @@ img.pens {
 
 
 /* Maps */
-#currently{
-	font: 0.8em;
-	font-weight: bold;
-}
 .gmap_canvas {
 	position: relative;
 	padding-bottom: 65.25%;
@@ -567,10 +556,12 @@ img.pens {
    text-align: left;
 }
 #mc_embed_signup .vertical-centre  {
-	display: flex;
+	/* display: flex;
     justify-content:center;
     align-content:center;
-    flex-direction:column;
+	flex-direction:column; */
+	margin-top: auto;
+	margin-bottom: auto;
 }
 #mc_embed_signup .mc-field-group select {
    width: 50%;
