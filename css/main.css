@@ -190,8 +190,8 @@ h3 {
 	}*/
 	
 	#mc_embed_signup .button {
-		padding: 0.5em 1.1em 1em 1.1em;
-		font-size: 2em;
+		padding-top: auto;
+		padding-bottom: auto;
 	} 
 	.imgBubbles {
 		text-align: center;
