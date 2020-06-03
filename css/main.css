@@ -6,14 +6,51 @@
 	box-sizing: border-box;
 }
 html, body {
-	width:100%;
-	height:100%;
+	width:98vw;
+	height:99vh;
 }
 body {
 	font-family: 'Roboto', Helvetica, sans-serif;
+	display: flex;
+  	flex-direction: column;
 }
 .wrapper {
-	min-height: 100%;
+	flex: 1 0 auto;
+}
+.footer {
+	flex-shrink: 0;
+}
+.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.begin {
+	align-items: flex-start;
+}
+.row > * {
+	flex: 1 100%;
+  }
+.single {
+	flex: 1;
+}
+.double {
+	flex: 2;
+}
+.triple {
+	flex: 3;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.left-padding {
+	padding-left: 2vw;
 }
 a  {
     text-decoration: none;
@@ -25,73 +62,8 @@ a:visited {
 a:hover {
 	text-decoration: underline;
 }
-.bigger {
-	font-size: 1.1em;
-	font-weight: bold;
-}
 .centredTitle {
 	text-align: center;
-}
-.bannerImage {
-	height: 80%;
-	background-image: url("img/mainPencils.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-origin: bottom;
-	/* padding: 5%; */
-
-}
-.row {
-	width: 100%;
-	display: flex;
-}
-.col-full {
-	width:100%;
-	display: inline-block;
-	flex: 1;
-	/* padding: 5px; */
-}
-.col-3Quarters {
-	width:75%;
-	display: inline-block;
-	/* flex: 1; */
-	padding: 5px;
-}
-.col-half {
-	width:50%;
-	display: inline-block;
-	/* flex: 1; */
-	/* padding: 5px; */
-	box-sizing: border-box;
-}
-.col-third {
-	width:33%;
-	display: inline-block;
-	/* flex: 1; */
-	padding: 5px;
-}
-.col-2third {
-	width:65%;
-	display: inline-block;
-	flex: 1;
-	padding: 5px;
-}
-.col-quarter {
-	width:25%;
-	display: inline-block;
-	/* flex: 1; */
-	/* padding: 5px; */
-	/* box-sizing: border-box; */
-	/* text-align: center; */
-}
-footer {
-	/* padding-bottom: 0px;
-	margin-bottom: 0px; */
-	color: grey;
-	font-size: 0.8em;
-}
-footer a:visited {
-	color: grey;
 }
 .logo1 {
 	font-size: 1.9em;
@@ -100,49 +72,7 @@ footer a:visited {
 	font-size: 1.2em;
 	font-family: Kollektif;
 }
-h3 {
-	font-size: 1.12em;
-}
 
-@media only screen and (max-width: 1024px) {
-    .aboutSmall {
-    	width: 99%;
-    	height: auto;
-    }
-    .bannerImage {
-		width: 100%;
-		height: 25%;
-	}
-    .aboutBig {
-    	display: none;
-    }
-
-	.aboutSmall h3:hover {
-	    text-decoration: underline;
-	}
-	p {
-		font-size: 1.5vh;
-	}
-	p.small {
-		font-size: 1.2vh;
-	}
-	.wrapper {
-		min-height: 110%;
-	}
-
-}
-@media only screen and (min-width: 1025px) {
-	.aboutSmall {
-	    display: none;
-	}
-	.aboutBig h3 {
-    	font-weight: bold;
-	}
-	.bannerImage {
-		padding: 5%;
-	}
-
-}
 ul {
 	list-style: none;
 	text-align: center;
@@ -151,20 +81,69 @@ ul {
 ul li {
 	display: inline;
 }
+.bannerImg {
+	width: 80%;
+	height: auto;
+	opacity: 0.8;
+}
 .social{
-	padding-top: 2vh;
-	font-size: 1.5em;
+	/* padding-top: 2vh; */
+	font-size: 1.1em;
 	text-align: center;
 	margin-right: 2vw;
 	margin-left: 2vw;
 }
-.mainText {
+.social li a:hover {
+	background-color: black;
+	color: white;
+}
+.mainButton {
 	background-color: white;
-	padding: 1%;
+	border: #B6D9EE solid 2px;
+	border-radius: 1px;
 }
-p {
-	font-size: 1.5vh;
+.note {
+	padding: 2%;
+	margin: 2%;
+	border-radius: 10px;
+	/* border: grey solid 1px; */
+	width: 70%;
 }
-p.small {
-	font-size: 1.2vh;
+.small {
+	font-size: 0.7em;
+	text-align: left;
+}
+.larger {
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+/* Form */
+.asterisk {
+	color: red;
+	vertical-align: super;
+}
+.indicates-required {
+	font-size: 0.8em;
+	text-align: right;
+}
+#mc_embed_signup div.mce_inline_error {
+	color: red;
+	background-color: white;
+}
+.message-box {
+	height: 20vh;
+}
+
+/* Contact page */
+.contact-side {
+	opacity: 0.6;
+	width: 100%;
+}
+.contact-border {
+	border: #B6D9EE dashed 3px;
+	margin-top: 5vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	border-radius: 20px;
 }
