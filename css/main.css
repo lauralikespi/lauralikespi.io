@@ -28,11 +28,11 @@ body {
 	justify-content: center;
 	text-align: center;
 }
-.begin {
-	align-items: flex-start;
-}
 .row > * {
 	flex: 1 100%;
+}
+.begin {
+	align-items: flex-start;
 }
 .single {
 	flex: 1;
@@ -140,7 +140,7 @@ ul {
 
 /* Contact page */
 .contact-side {
-	opacity: 0.6;
+	opacity: 0.8;
 	width: 100%;
 }
 .contact-border {
@@ -155,14 +155,16 @@ ul {
 .no-bottom-margin {
 	margin-bottom: 0;
 }
-.kids-img {
+.img-standard-width {
 	width: 90%;
-	opacity: 0.7;
 	margin-top: 2vh;
 	margin-bottom: 2vh;
 	margin-left: 2vw;
 	margin-right: 2vw;
 	padding: 2px;
+}
+.img-standard-op {
+	opacity: 0.8;
 }
 
 .smaller-p {
@@ -201,6 +203,9 @@ ul {
 	.row-large > * {
 		flex: 1 100%;
 	}
+	.begin-large {
+		align-items: flex-start;
+	}
 	.single-big {
 		flex: 1;
 	}
@@ -221,6 +226,9 @@ ul {
 		margin: 2%;
 		width: 70%;
 	}  
+	.spreadsheet-school {
+		width: 85%;
+	}
 }
 @media only screen and (max-width: 1023px){
 	.col-small {
@@ -264,6 +272,9 @@ ul {
 		width: 80%;
 		padding-left: 5vw;
 		padding-right: 5vw;
+	}
+	.spreadsheet-school {
+		width: 90%;
 	}
 
 }
