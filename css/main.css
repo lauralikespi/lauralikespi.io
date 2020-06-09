@@ -265,7 +265,7 @@ ul {
 		cursor: pointer;
 		color: grey;
 	}
-	.big-screen, #banner-large, #big-note, .contact-side {
+	.big-screen, #banner-large, #big-note {
 		display: none;
 	}
 	.thin-border {
@@ -413,4 +413,12 @@ a.anchor {
     position: relative;
     top: -250px; /* NEEDS TO BE MADE MORE RESPONSIVE */
     visibility: hidden;
+}
+
+
+#potato-contact, #tot-contact {
+	width: 50%;
+}
+#kpmg-contact, #worldpay-contact {
+	width: 80%;
 }
