@@ -223,6 +223,9 @@ ul li {
 	.big-screen, #banner-large, #big-note {
 		display: none;
 	}
+	#shapes-top {
+		margin-top: -50vh;
+	}
 
 }
 
@@ -238,6 +241,9 @@ ul li {
 	}
 	.navbar-toggle {
 	    display: none;
+	}
+	#shapes-top {
+		margin-top: -30vh;
 	}
 }
 
@@ -388,6 +394,4 @@ a.anchor {
 	text-align: center;
 	border-radius: 5px;
 }
-#shapes-top {
-	margin-top: -30vh;
-}
+
