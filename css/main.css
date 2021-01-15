@@ -19,7 +19,6 @@ body {
 }
 .footer {
 	flex-shrink: 0;
-	margin-bottom: -10vh;
 }
 .row {
 	width: 100%;
@@ -74,6 +73,9 @@ a:hover {
 ul {
 	padding-inline-start: 0;
 }
+ul li {
+	list-style: none;	
+}
 .inline-list li {
 	display: inline;
 	text-align: center;
@@ -122,22 +124,6 @@ ul {
 	font-size: 0.9em;
 }
 
-/* Form */
-.asterisk {
-	color: red;
-	vertical-align: super;
-}
-.indicates-required {
-	font-size: 0.8em;
-	text-align: right;
-}
-#mc_embed_signup div.mce_inline_error {
-	color: red;
-	background-color: white;
-}
-.message-box {
-	height: 20vh;
-}
 
 /* Contact page */
 .contact-side {
@@ -152,39 +138,6 @@ ul {
 	border-radius: 20px;
 }
 
-/* kids */
-.no-bottom-margin {
-	margin-bottom: 0;
-}
-.img-standard-width {
-	width: 90%;
-	margin-top: 2vh;
-	margin-bottom: 2vh;
-	margin-left: 2vw;
-	margin-right: 2vw;
-	padding: 2px;
-}
-.img-standard-op {
-	opacity: 0.8;
-}
-
-.smaller-p {
-	color: black;
-	font-size: 0.8em;
-}
-
-.bold {
-	font-weight: bold;
-}
-
-.thin-border {
-	margin-top: 2vh;
-	margin-bottom: 2vh;
-	margin-left: 2vw;
-	margin-right: 2vw;
-	border: #B6D9EE dashed 2px;
-	border-radius: 1px;
-}
 
 /* @media only screen and (max-width: 1023px) and (orientation: portrait){
 	.bannerImg {
@@ -288,66 +241,63 @@ ul {
 	}
 }
 
-
-
-
-	#triangle1{
-		width: 0;
-		height: 0;
-		border-top: 60vh solid transparent;
-		border-right: 90vh solid #5CC8FF;
-		border-bottom: 70vh solid transparent;
-		transform: rotate(-45deg);
-		z-index: -1;
-		position: absolute;
-		margin-left: -10vw;
-		margin-top: -30vh;
-	}
-	#triangle2{
-		width: 0;
-		height: 0;
-		border-top: 80vh solid transparent;
-		border-right: 80vh solid #F9B9F2;
-		border-bottom: 80vh solid transparent;
-		transform: rotate(-5deg);
-		z-index: -1;
-		position: absolute;
-		margin-top: -30vh;
-	}
-	#triangle3{
-		width: 0;
-		height: 0;
-		border-left: 60vh solid transparent;
-		border-right: 60vh solid transparent;
-		border-bottom: 120vh solid #41E2BA;
-		z-index: -1;
-		position: absolute;
-		transform: rotate(10deg);
-		margin-bottom: -10vh;
-		margin-left: -10vw;
-	}
-	#triangle4{
-		width: 0;
-		height: 0;
-		border-left: 40vh solid transparent;
-		border-right: 40vh solid transparent;
-		border-top: 50vh solid #F7DD72;
-		z-index: -2;
-		position: absolute;
-		transform: rotate(20deg); 
-		margin-top: -15vh;
-	}
-	#triangle5{
-		width: 0;
-		height: 0;
-		border-bottom: 40vh solid transparent;
-		border-top: 40vh solid transparent;
-		border-right: 60vh solid #7E3F8F;
-		z-index: -1;
-		position: absolute;
-		transform: rotate(20deg); 
-		margin-left: -40vw;
-	}
+#triangle1{
+	width: 0;
+	height: 0;
+	border-top: 60vh solid transparent;
+	border-right: 90vh solid #5CC8FF;
+	border-bottom: 70vh solid transparent;
+	transform: rotate(-45deg);
+	z-index: -1;
+	position: absolute;
+	margin-left: -10vw;
+	margin-top: -30vh;
+}
+#triangle2{
+	width: 0;
+	height: 0;
+	border-top: 80vh solid transparent;
+	border-right: 80vh solid #F9B9F2;
+	border-bottom: 80vh solid transparent;
+	transform: rotate(-5deg);
+	z-index: -1;
+	position: absolute;
+	margin-top: -30vh;
+}
+#triangle3{
+	width: 0;
+	height: 0;
+	border-left: 60vh solid transparent;
+	border-right: 60vh solid transparent;
+	border-bottom: 120vh solid #41E2BA;
+	z-index: -1;
+	position: absolute;
+	transform: rotate(10deg);
+	margin-bottom: -10vh;
+	margin-left: -15vw;
+}
+#triangle4{
+	width: 0;
+	height: 0;
+	border-left: 60vh solid transparent;
+	border-right: 60vh solid transparent;
+	border-top: 50vh solid #F7DD72;
+	z-index: -2;
+	position: absolute;
+	transform: rotate(20deg); 
+	margin-top: -20vh;
+}
+/* #triangle5{
+	width: 0;
+	height: 0;
+	border-bottom: 40vh solid transparent;
+	border-top: 40vh solid transparent;
+	border-right: 60vh solid #7E3F8F;
+	z-index: -1;
+	position: absolute;
+	transform: rotate(20deg); 
+	margin-left: -40vw;
+} */
 
 
 /* Active is the class used by the JavaScript to show and hide the navbar for mobile devices */
@@ -428,4 +378,16 @@ a.anchor {
 		margin-left: -50vw;
 		margin-top: 5vh;
 	}
+}
+#info-box{
+	background-color: #7E3F8F;
+	color: white;
+	font-size: 1.6em;
+	padding: 2vh 2vw;
+	z-index: 5;
+	text-align: center;
+	border-radius: 5px;
+}
+#shapes-top {
+	margin-top: -30vh;
 }
