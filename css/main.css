@@ -19,6 +19,7 @@ body {
 }
 .footer {
 	flex-shrink: 0;
+	margin-bottom: -10vh;
 }
 .row {
 	width: 100%;
