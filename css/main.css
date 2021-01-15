@@ -230,7 +230,7 @@ ul {
 		width: 85%;
 	}
 }
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1024px){
 	.col-small {
 		width: 100%;
 		display: flex;
@@ -268,11 +268,11 @@ ul {
 	.big-screen, #banner-large, #big-note {
 		display: none;
 	}
-	.thin-border {
+	/* .thin-border {
 		width: 80%;
 		padding-left: 5vw;
 		padding-right: 5vw;
-	}
+	} */
 	.spreadsheet-school {
 		width: 90%;
 	}
@@ -421,4 +421,44 @@ a.anchor {
 }
 #kpmg-contact, #worldpay-contact {
 	width: 80%;
+}
+
+.flexbox_inner {
+	height: 30vh;
+	width: 30vh;
+}
+#triangle1{
+	width: 0;
+	height: 0;
+	border-top: 60vh solid transparent;
+	border-right: 90vh solid #5CC8FF;
+	border-bottom: 70vh solid transparent;
+	transform: rotate(-45deg);
+	z-index: -1;
+	position: absolute;
+	margin-left: -10vw;
+	margin-top: -30vh;
+}
+#triangle2{
+	width: 0;
+	height: 0;
+	border-top: 80vh solid transparent;
+	border-right: 80vh solid #F9B9F2;
+	border-bottom: 80vh solid transparent;
+	transform: rotate(-5deg);
+	z-index: -1;
+	position: absolute;
+	margin-top: -30vh;
+}
+#triangle3{
+	width: 0;
+	height: 0;
+	border-left: 60vh solid transparent;
+	border-right: 60vh solid transparent;
+	border-bottom: 120vh solid #41E2BA;
+	z-index: -1;
+	position: absolute;
+	transform: rotate(10deg);
+	margin-bottom: -10vh;
+	margin-left: -10vw;
 }
