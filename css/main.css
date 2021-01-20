@@ -308,18 +308,49 @@ ul li {
 	transform: rotate(20deg); 
 	margin-top: -20vh;
 }
-/* #triangle5{
+#triangle5{
 	width: 0;
 	height: 0;
 	border-bottom: 40vh solid transparent;
 	border-top: 40vh solid transparent;
-	border-right: 60vh solid #7E3F8F;
-	z-index: -1;
+	border-right: 60vh solid #F7DD72;
+	z-index: -2;
 	position: absolute;
 	transform: rotate(20deg); 
-	margin-left: -40vw;
-} */
+	margin-top: -55vh;
+	margin-right: -30vw;
+}
+#triangle6{
+	width: 0;
+	height: 0;
+	border-left: 30vh solid transparent;
+	border-right: 30vh solid transparent;
+	border-bottom: 60vh solid #41E2BA;
+	z-index: -1;
+	position: absolute;
+	transform: rotate(10deg);
+}
+#circle1 {
+	width: 15vw;
+	height: 15vw;
+	line-height: 15vw;
+	background-color: #F9B9F2;
+	border-radius: 50%;
+	text-align: center;
+	position: absolute;
+	margin-top: -17vh;
+	margin-left: 10vw;
+}
+#circle2 {
+	position: absolute;
+	width: 35vw;
+	height: 35vw;
+	background-color: #5CC8FF;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: -35vh;
 
+}
 
 /* Active is the class used by the JavaScript to show and hide the navbar for mobile devices */
 .active {
