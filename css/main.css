@@ -505,3 +505,9 @@ a.anchor {
 .yellow-border {
 	border-color: #F7DD72;
 }
+.short-sweet-pages 	#shapes-top {
+	margin-top: -100vh;
+}
+.grey {
+	color: gray;
+}
