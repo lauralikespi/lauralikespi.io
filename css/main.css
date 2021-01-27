@@ -245,6 +245,9 @@ ul li {
 	.front, .social {
 		z-index: 5;
 	}
+	.back {
+		z-index: -5;
+	}
 	#shapes-top {
 		margin-top: -50vh;
 	}
