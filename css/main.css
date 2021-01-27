@@ -123,8 +123,12 @@ ul li {
 	font-weight: bold;
 	font-size: 0.9em;
 }
-
-
+.front, .social {
+	z-index: 5;
+}
+.back {
+	z-index: -5;
+}
 /* Contact page */
 .contact-side {
 	opacity: 0.8;
@@ -241,12 +245,6 @@ ul li {
 	}
 	.navbar-toggle {
 	    display: none;
-	}
-	.front, .social {
-		z-index: 5;
-	}
-	.back {
-		z-index: -5;
 	}
 	#shapes-top {
 		margin-top: -50vh;
