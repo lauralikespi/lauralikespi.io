@@ -181,9 +181,9 @@ ul li {
 		margin: 2%;
 		width: 70%;
 	}  
-	.spreadsheet-school {
+	/* .spreadsheet-school {
 		width: 85%;
-	}
+	} */
 }
 @media only screen and (max-width: 1024px){
 	.col-small {
@@ -222,9 +222,6 @@ ul li {
 	}
 	.big-screen, #banner-large, #big-note {
 		display: none;
-	}
-	#shapes-top {
-		margin-top: -110vh;
 	}
 
 }
@@ -265,75 +262,6 @@ ul li {
 		left: 0; 
 		width: 100%; 
 		height: 100%;
-	}
-		
-	#triangle1{
-		width: 0;
-		height: 0;
-		border-top: 60vh solid transparent;
-		border-right: 90vh solid #5CC8FF;
-		border-bottom: 70vh solid transparent;
-		transform: rotate(-45deg);
-		z-index: -1;
-		position: absolute;
-		margin-left: -10vw;
-		margin-top: -30vh;
-	}
-	#triangle2{
-		width: 0;
-		height: 0;
-		border-top: 80vh solid transparent;
-		border-right: 80vh solid #F9B9F2;
-		border-bottom: 80vh solid transparent;
-		transform: rotate(-5deg);
-		z-index: -1;
-		position: absolute;
-		margin-top: -30vh;
-	}
-	#triangle3{
-		width: 0;
-		height: 0;
-		border-left: 60vh solid transparent;
-		border-right: 60vh solid transparent;
-		border-bottom: 120vh solid #41E2BA;
-		z-index: -1;
-		position: absolute;
-		transform: rotate(10deg);
-		margin-bottom: -10vh;
-		margin-left: -15vw;
-	}
-	#triangle4{
-		width: 0;
-		height: 0;
-		border-left: 60vh solid transparent;
-		border-right: 60vh solid transparent;
-		border-top: 50vh solid #F7DD72;
-		z-index: -5;
-		position: absolute;
-		transform: rotate(20deg); 
-		margin-top: -20vh;
-	}
-	#triangle5{
-		width: 0;
-		height: 0;
-		border-bottom: 40vh solid transparent;
-		border-top: 40vh solid transparent;
-		border-right: 60vh solid #F7DD72;
-		z-index: -2;
-		position: absolute;
-		transform: rotate(20deg); 
-		margin-top: -55vh;
-		margin-right: -30vw;
-	}
-	#triangle6{
-		width: 0;
-		height: 0;
-		border-left: 30vh solid transparent;
-		border-right: 30vh solid transparent;
-		border-bottom: 60vh solid #41E2BA;
-		z-index: -1;
-		position: absolute;
-		transform: rotate(10deg);
 	}
 	#circle1 {
 		width: 15vw;
@@ -378,77 +306,6 @@ a.anchor {
 	z-index: -1;
 }
 @media only screen and (max-width: 1024px){
-	#triangle1{
-		width: 0;
-		height: 0;
-		border-top: 30vh solid transparent;
-		border-right: 60vh solid #5CC8FF;
-		border-bottom: 50vh solid transparent;
-		transform: rotate(-45deg);
-		z-index: -1;
-		position: absolute;
-		margin-left: -20vw;
-		margin-top: -30vh;
-	}
-	#triangle2{
-		width: 0;
-		height: 0;
-		border-top: 30vh solid transparent;
-		border-right: 40vh solid #F9B9F2;
-		border-bottom: 40vh solid transparent;
-		transform: rotate(-5deg);
-		z-index: -1;
-		position: absolute;
-		margin-top: -30vh;
-		margin-left: -20vw;
-	}
-	#triangle3{
-		width: 0;
-		height: 0;
-		border-left: 40vh solid transparent;
-		border-right: 40vh solid transparent;
-		border-bottom: 60vh solid #41E2BA;
-		z-index: -1;
-		position: absolute;
-		transform: rotate(10deg);
-		margin-left: -50vw; 
-		margin-top: 20vh;
-	}
-	#triangle4{
-		width: 0;
-		height: 0;
-		border-left: 30vh solid transparent;
-		border-right: 30vh solid transparent;
-		border-top: 40vh solid #F7DD72;
-		z-index: -5;
-		position: absolute;
-		transform: rotate(30deg); 
-		margin-top: 20vh;
-	}
-	#triangle5{
-		width: 0;
-		height: 0;
-		border-bottom: 20vh solid transparent;
-		border-top: 20vh solid transparent;
-		border-right: 40vh solid #F7DD72;
-		z-index: -2;
-		position: absolute;
-		transform: rotate(20deg); 
-		margin-top: -35vh;
-		margin-right: -30vw;
-	}
-	#triangle6{
-		width: 0;
-		height: 0;
-		border-left: 15vh solid transparent;
-		border-right: 15vh solid transparent;
-		border-bottom: 30vh solid #41E2BA;
-		z-index: -1;
-		position: absolute;
-		transform: rotate(10deg);
-
-		margin-top: 5vh;
-	}
 	#spreadsheet-main {
 		margin-top: -10vh;
 	}
@@ -511,11 +368,13 @@ a.anchor {
 .yellow-border {
 	border-color: #F7DD72;
 }
-.short-sweet-pages 	#shapes-top {
-	margin-top: -100vh;
-}
-.short-sweet 	#shapes-top {
-	margin-top: -60vh;
+
+.spreadsheet-school {
+	height: 100%;
+	background-image: url("img/triangles.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .grey {
 	color: gray;
