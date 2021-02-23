@@ -166,14 +166,18 @@ ul li {
 	border-radius: 20px;
 }
 
-
+.flexbox_inner {
+	height: 30vh;
+	width: 30vh;
+	z-index: -1;
+}
 /* @media only screen and (max-width: 1023px) and (orientation: portrait){
 	.bannerImg {
 		width: 50%;
 	}
 } */
 
-@media only screen and (min-width: 1023px){
+@media only screen and (min-width: 1025px){
 	.row-large {
 		width: 100%;
 		display: flex;
@@ -209,83 +213,6 @@ ul li {
 		margin: 2%;
 		width: 70%;
 	}  
-	/* .spreadsheet-school {
-		width: 85%;
-	} */
-}
-@media only screen and (max-width: 1024px){
-	.col-small {
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-	}
-	.col-small > * {
-		flex: 1 100%;
-	}
-	.double-small {
-		flex: 2;
-	}
-	.big-nav {
-		display: none;
-	}
-	#small-nav {
-		display: flex;
-	}
-	.main-nav {
-		list-style-type: none;
-		display: none;
-	}
-	.main-nav li {
-		text-align: center;
-		margin: 2vh auto;
-	}
-	.navbar-toggle {
-		position: absolute;
-		right: 7vw;
-		cursor: pointer;
-		color: grey;
-	}
-	.big-screen, #banner-large, #big-note {
-		display: none;
-	}
-	.spreadsheet-school {
-		height: 100%;
-		background-image: url("img/triangles-small.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	#triangle5{
-		width: 0;
-		height: 0;
-		border-bottom: 20vh solid transparent;
-		border-top: 20vh solid transparent;
-		border-right: 40vh solid #F7DD72;
-		z-index: -2;
-		position: absolute;
-		transform: rotate(20deg); 
-		margin-top: -35vh;
-		margin-right: -30vw;
-	}
-	#triangle6{
-		width: 0;
-		height: 0;
-		border-left: 15vh solid transparent;
-		border-right: 15vh solid transparent;
-		border-bottom: 30vh solid #41E2BA;
-		z-index: -1;
-		position: absolute;
-		transform: rotate(10deg);
-
-		margin-top: 5vh;
-	}
-}
-
-/* Large screens - do not display burger navbar */
-@media only screen and (min-width: 1025px) {
 	.navbar {
 	    display: none;
 	}
@@ -339,11 +266,77 @@ ul li {
 		margin-top: -35vh;
 
 	}
+	#triangle5{
+		width: 0;
+		height: 0;
+		border-bottom: 40vh solid transparent;
+		border-top: 40vh solid transparent;
+		border-right: 60vh solid #F7DD72;
+		z-index: -2;
+		position: absolute;
+		transform: rotate(20deg); 
+		margin-top: -55vh;
+		margin-right: -30vw;
+	}
+	#triangle6{
+		width: 0;
+		height: 0;
+		border-left: 30vh solid transparent;
+		border-right: 30vh solid transparent;
+		border-bottom: 60vh solid #41E2BA;
+		z-index: -1;
+		position: absolute;
+		transform: rotate(10deg);
+	}
 }
 
 
 
 @media only screen and (max-width: 1024px){
+	.col-small {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.col-small > * {
+		flex: 1 100%;
+	}
+	.double-small {
+		flex: 2;
+	}
+	.big-nav {
+		display: none;
+	}
+	#small-nav {
+		display: flex;
+	}
+	.main-nav {
+		list-style-type: none;
+		display: none;
+	}
+	.main-nav li {
+		text-align: center;
+		margin: 2vh auto;
+	}
+	.navbar-toggle {
+		position: absolute;
+		right: 7vw;
+		cursor: pointer;
+		color: grey;
+	}
+	.big-screen, #banner-large, #big-note {
+		display: none;
+	}
+	.spreadsheet-school {
+		height: 100%;
+		background-image: url("img/triangles-small.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 	/* Active is the class used by the JavaScript to show and hide the navbar for mobile devices */
 	.active {
 		display: block;
@@ -393,25 +386,28 @@ ul li {
 	#triangle5{
 		width: 0;
 		height: 0;
-		border-bottom: 40vh solid transparent;
-		border-top: 40vh solid transparent;
-		border-right: 60vh solid #F7DD72;
+		border-bottom: 20vh solid transparent;
+		border-top: 20vh solid transparent;
+		border-right: 40vh solid #F7DD72;
 		z-index: -2;
 		position: absolute;
 		transform: rotate(20deg); 
-		margin-top: -55vh;
+		margin-top: -35vh;
 		margin-right: -30vw;
 	}
 	#triangle6{
 		width: 0;
 		height: 0;
-		border-left: 30vh solid transparent;
-		border-right: 30vh solid transparent;
-		border-bottom: 60vh solid #41E2BA;
+		border-left: 15vh solid transparent;
+		border-right: 15vh solid transparent;
+		border-bottom: 30vh solid #41E2BA;
 		z-index: -1;
 		position: absolute;
 		transform: rotate(10deg);
+
+		margin-top: 5vh;
 	}
+	
 	
 }
 .pink-border {
