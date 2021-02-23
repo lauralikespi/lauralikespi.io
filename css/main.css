@@ -177,7 +177,22 @@ ul li {
 		width: 50%;
 	}
 } */
-
+#excel-video {
+	display: none;
+}
+.spreadsheet-choice {
+	margin-top: 3vh;
+	background-color: #7E3F8F;
+	color: white;
+	font-size: 1.2em;
+	padding: 1vh 1vw;
+	text-align: center;
+	border-radius: 5px;
+}
+button.spreadsheet-choice:disabled {
+	color: #545454;
+	background-color: #7f7f7f;
+}
 @media only screen and (min-width: 1025px){
 	.row-large {
 		width: 100%;

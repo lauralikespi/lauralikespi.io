@@ -82,8 +82,8 @@
 					<p class="smaller-p left left-padding"> In this video, we discuss commonly used terms (such as cell, sheet, function) to help make Spreadsheets more clear. </p>
 					
 					<p> Please choose which Spreadsheet you want to learn about (there is a video for each):</p>
-					<p> <button class="spreadsheet-choice" id="google-sheets"> Google Sheet </button></p>
-					<p> <button class="spreadsheet-choice" id="microsoft-excel"> Microsoft Excel </button> </p>
+					<p> <button class="spreadsheet-choice" id="google-sheets" onclick="sheets()"> Google Sheets </button></p>
+					<p> <button class="spreadsheet-choice" id="microsoft-excel" onclick="excel()"> Microsoft Excel </button> </p>
 					<div class="row">
 						<div class="single">
 		
@@ -101,7 +101,10 @@
                 </div> 
                 <div class="double">
                     <p class="big-screen"> &nbsp;</p>
-					<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://player.vimeo.com/video/515678971" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+					<div style="position: relative; padding-bottom: 62.5%; height: 0;">
+						<iframe id="sheets-video" src="https://player.vimeo.com/video/515678971" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+						<iframe id="excel-video" src="https://player.vimeo.com/video/515677924" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+					</div>
 					<!-- <p> Transcript </p> -->
 				</div>
 			</div>
@@ -111,6 +114,7 @@
 
 
 		<script src="../../js/main.js"></script>
+		<script src="../../js/spreadsheet-switch.js"></script>
         <!-- <script src="js/slider.js"></script> -->
 	</body>
 
