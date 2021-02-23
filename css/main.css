@@ -123,7 +123,35 @@ ul li {
 	font-weight: bold;
 	font-size: 0.9em;
 }
+#info-box{
+	margin-top: 5vh;
+	background-color: #7E3F8F;
+	color: white;
+	font-size: 1.4em;
+	padding: 2vh 2vw;
+	z-index: 5;
+	text-align: center;
+	border-radius: 5px;
+}
+.spreadsheet-class {
+	z-index: 5;
+}
+.spreadsheet-class h3 {
+	font-size: 1.5em;
+	z-index: 10;
+}
 
+
+.spreadsheet-school {
+	height: 100%;
+	background-image: url("img/triangles.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.grey {
+	color: gray;
+}
 
 /* Contact page */
 .contact-side {
@@ -223,7 +251,37 @@ ul li {
 	.big-screen, #banner-large, #big-note {
 		display: none;
 	}
+	.spreadsheet-school {
+		height: 100%;
+		background-image: url("img/triangles-small.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#triangle5{
+		width: 0;
+		height: 0;
+		border-bottom: 20vh solid transparent;
+		border-top: 20vh solid transparent;
+		border-right: 40vh solid #F7DD72;
+		z-index: -2;
+		position: absolute;
+		transform: rotate(20deg); 
+		margin-top: -35vh;
+		margin-right: -30vw;
+	}
+	#triangle6{
+		width: 0;
+		height: 0;
+		border-left: 15vh solid transparent;
+		border-right: 15vh solid transparent;
+		border-bottom: 30vh solid #41E2BA;
+		z-index: -1;
+		position: absolute;
+		transform: rotate(10deg);
 
+		margin-top: 5vh;
+	}
 }
 
 /* Large screens - do not display burger navbar */
@@ -244,9 +302,6 @@ ul li {
 	}
 	.back {
 		z-index: -5;
-	}
-	#shapes-top {
-		margin-top: -50vh;
 	}
 	.spreadsheet-class {
 		width: 20vw;
@@ -286,26 +341,29 @@ ul li {
 	}
 }
 
-/* Active is the class used by the JavaScript to show and hide the navbar for mobile devices */
-.active {
-	display: block;
-}
-/* Allows for the heading and nav bar to be included when ids are used for anchoring to sections */
-a.anchor {
-    display: block;
-    position: relative;
-    top: -250px; /* NEEDS TO BE MADE MORE RESPONSIVE */
-    visibility: hidden;
-}
 
 
-
-.flexbox_inner {
-	height: 30vh;
-	width: 30vh;
-	z-index: -1;
-}
 @media only screen and (max-width: 1024px){
+	/* Active is the class used by the JavaScript to show and hide the navbar for mobile devices */
+	.active {
+		display: block;
+	}
+	/* Allows for the heading and nav bar to be included when ids are used for anchoring to sections */
+	a.anchor {
+		display: block;
+		position: relative;
+		top: -250px; /* NEEDS TO BE MADE MORE RESPONSIVE */
+		visibility: hidden;
+	}
+	.spreadsheet-class {
+		width: 80vw;
+		border: dashed grey 5px;
+		margin-left: 6vw;
+		margin-right: 6vw;
+		margin-top: 2vh;
+		border-radius: 50%;
+	}
+	
 	#spreadsheet-main {
 		margin-top: -10vh;
 	}
@@ -332,32 +390,29 @@ a.anchor {
 		margin-top: -15vh;
 	
 	}
-	
-	.spreadsheet-class {
-		width: 80vw;
-		border: dashed grey 5px;
-		margin-left: 6vw;
-		margin-right: 6vw;
-		margin-top: 2vh;
-		border-radius: 50%;
+	#triangle5{
+		width: 0;
+		height: 0;
+		border-bottom: 40vh solid transparent;
+		border-top: 40vh solid transparent;
+		border-right: 60vh solid #F7DD72;
+		z-index: -2;
+		position: absolute;
+		transform: rotate(20deg); 
+		margin-top: -55vh;
+		margin-right: -30vw;
 	}
-}
-#info-box{
-	margin-top: 5vh;
-	background-color: #7E3F8F;
-	color: white;
-	font-size: 1.4em;
-	padding: 2vh 2vw;
-	z-index: 5;
-	text-align: center;
-	border-radius: 5px;
-}
-.spreadsheet-class {
-	z-index: 5;
-}
-.spreadsheet-class h3 {
-	font-size: 1.5em;
-	z-index: 10;
+	#triangle6{
+		width: 0;
+		height: 0;
+		border-left: 30vh solid transparent;
+		border-right: 30vh solid transparent;
+		border-bottom: 60vh solid #41E2BA;
+		z-index: -1;
+		position: absolute;
+		transform: rotate(10deg);
+	}
+	
 }
 .pink-border {
 	border-color: #F9B9F2;
@@ -367,15 +422,4 @@ a.anchor {
 }
 .yellow-border {
 	border-color: #F7DD72;
-}
-
-.spreadsheet-school {
-	height: 100%;
-	background-image: url("img/triangles.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.grey {
-	color: gray;
 }
