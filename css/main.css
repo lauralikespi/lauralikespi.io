@@ -195,14 +195,18 @@ ul li {
 	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
 	text-align:center;
 	transition: all 0.2s;
+	opacity: 0.6;
 }
-.spreadsheet-choice:hover {
+.spreadsheet-choice:hover:enabled {
 	border-color: rgba(255,255,255,1);
+}
+.spreadsheet-choice:focus {
+	text-decoration: underline;
 }
 button.spreadsheet-choice:disabled {
 	/* color: #545454;
 	text-decoration: line-through; */
-	opacity: 0.5;
+	opacity: 1;
 }
 @media only screen and (min-width: 1025px){
 	.row-large {
