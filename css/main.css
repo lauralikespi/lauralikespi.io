@@ -199,6 +199,7 @@ ul li {
 }
 .spreadsheet-choice:hover:enabled {
 	border-color: rgba(255,255,255,1);
+	opacity: 0.9;
 }
 .spreadsheet-choice:focus {
 	text-decoration: underline;
