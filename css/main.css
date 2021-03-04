@@ -183,7 +183,7 @@ ul li {
 .spreadsheet-choice {
 	background-color: #9a4ef1;
 	display:inline-block;
-	padding:0.3em 1.2em;
+	padding:0.5em 1.5em;
 	margin:0 0.1em 0.1em 0;
 	border:0.16em solid rgba(255,255,255,0);
 	border-radius:2em;
@@ -200,8 +200,9 @@ ul li {
 	border-color: rgba(255,255,255,1);
 }
 button.spreadsheet-choice:disabled {
-	color: #545454;
-	background-color: #7f7f7f;
+	/* color: #545454;
+	text-decoration: line-through; */
+	opacity: 0.5;
 }
 @media only screen and (min-width: 1025px){
 	.row-large {
