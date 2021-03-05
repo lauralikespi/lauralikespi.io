@@ -439,6 +439,10 @@ button.spreadsheet-choice:disabled {
 
 		margin-top: 5vh;
 	}
+	.social li {
+		font: 1.8em;
+		margin: 4vh 8vw;
+	}
 	
 	
 }
