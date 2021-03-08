@@ -320,6 +320,10 @@ button.spreadsheet-choice:disabled {
 		position: absolute;
 		transform: rotate(10deg);
 	}
+	.tag-line {
+		text-align: left;
+		padding-left: 5vw;
+	}
 }
 
 
@@ -442,6 +446,10 @@ button.spreadsheet-choice:disabled {
 	.social li {
 		font: 1.8em;
 		margin: 4vh 8vw;
+	}
+	.tag-line {
+		/* margin-top: 25vh;		 */
+		font-size: 0.9em;
 	}
 	
 	
